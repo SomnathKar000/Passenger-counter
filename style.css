@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;800&family=Noto+Sans:wght@500&display=swap");
+body {
+  text-align: center;
+  background-image: url("back.jpg");
+  background-size: cover;
+  font-family: "Heebo", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+}
+h1 {
+  margin-top: 30px;
+  font-size: 30px;
+}
+h2 {
+  font-size: 40px;
+}
+.btn {
+  border: 0;
+  border-radius: 6px;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  margin: 30px;
+  width: 200px;
+}
+
+#increment-btn {
+  background-color: darkred;
+}
+
+#save-btn {
+  background-color: darkgreen;
+}
